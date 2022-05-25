@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Ricepes</title>
+  <link rel="icon" type="image/x-icon" href="th.jpg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {box-sizing: border-box}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+    header{ position: sticky;  background-color: #000000; padding-top: 5px; margin-bottom:0px ;margin-top: 5px; text-align: center;font-family: papyrus;   color: white; text-shadow: 2px 2px 4px #000000;
+  font-size: 200%; background-image:url("logo.jpg"); background-repeat: no-repeat;background-size: 60px 60px;
+}
+header:hover{   text-shadow: 2px 2px 4px #aaaaaa; 
+ }
+ a:link, a:visited {
+background-color: #eab843;  color: white;
+  color-adjust:transparent 50% ;
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 100%;
+  font-family: papyrus;
+}
+img{ height: 50%;}
+
+    a:hover, a:active {
+      background-image: linear-gradient(#ee780ac9	,#dc9756c7	 ,#d19a6fcb);
+}
+  
+
+th, td {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 3px solid rgba(221, 221, 221, 0.907);
+  border-left: 3px solid rgba(221, 221, 221, 0.907);
+  border-radius: 10%;
+  margin: 10%;
+}
+footer:hover {background-color: #d77724;}
+
+td:hover {background-color: #eab843;}
+
+.navpar{ 
+ position: sticky;
+  top: 0;
+  padding: 5px;}
+    li{display: inline;
+    text-decoration: none;  }
+    
+    footer{background-image: url("ratatuille1.jpg.png"); background-repeat: no-repeat; font-size:100%;text-shadow:  2px 2px 4px #aaaaaa ; background-size: cover; background-attachment:fixed ; }
+
+  </style>
+
+</head>
+<body style=" text-align: center; background-image: linear-gradient(#e0bc39 	,#e2b86b	 ,#d8bf85 ,#f1daae );color: white; background-attachment: fixed; background-repeat: no-repeat; font-family: papyrus; font-family: papyrus;" > 
+  <header  > Gusteau's</header>
+  <table style="width:100%;text-align: center;"><tr><td style=" border-radius: 20%;
+    border-bottom: solid #9d2f11 3px ;
+    border-left: solid #9d2f11 3px ;
+    border-right: solid #9d2f11 3px ; ">
+    <div style="width:25%; float: left; " class="navpar"><a href="main page .html"> Home </a></div>
+    <div style="width:15% ; float: left;" class="navpar"><a href="page 3 .html"> Recapies &#128151;</a></div>
+    <div style="width:15% ; float: left;" class="navpar"><a href="page 2 .html">Special services</a></div>
+    <div style="width:15%; float: left;" class="navpar"><a href="page 1 .html">About us </a></div>
+    <div style="width:15% ; float: left;" class="navpar"><a href="page 4 .html">Contact &Order</a></div>
+   </td> </tr></table>
+ 
+  
+  <h1> Meal portions</h1>
+
+    <ul style="text-align:center ; padding: 0px;">
+      <li > <a  href="# MAIN PLATE" style="border: #000000 solid 0px; width: fit-content; font-size: 80%;" > MAIN PLATE</a></li>
+      <li > <a  href="#JUICE " style="border: #000000 solid 0px; width: fit-content; font-size: 80%;" > JUICE</a> </li>
+      <li> <a  href="#DESSERT" style="border: #000000 solid 0px; width: fit-content; font-size: 80%;" > DESSERT</a></li>
+    </ul> 
+    <img src="dinnerggg.jpeg" width="75%" >
+
+    <p id=" MAIN PLATE"  style="text-align:center ; font-size: 80%"> MAIN PLATE <br>  {Recipe gallery} <br>Your Plate and the Planet
+      Just as different foods can have differing impacts on human health, they also have differing impacts on the environment. <br>
+       Food production is a major contributor to greenhouse gas emissions, and it places an enormous demand upon our earth’s natural resources. 
+       </p>
+   
+       
+
+<div class="slideshow-container">
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <h2 style="text-align: center;">Pasta </h2>
+    <img src="pasta and cheken .jpg" style="width:100%;height: 500px; " ></img>
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <h2 style="text-align: center;">Pasta </h2>
+    <img src="recipe1.png" style="width:100%;height: 500px;">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <h2 style="text-align: center;">Singles Sliders </h2>
+    <img src="single slider.jpg" style="width:100%;height: 500px; " ></img>
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <h2 style="text-align: center;">Singles Sliders  </h2>
+    <img src="single slider recipe.png" style="width:100%;height: 500px; " ></img>
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <h2 style="text-align: center;">BLT Rollers </h2>
+    <img src="plet rules.jpg" style="width:100%;height: 500px; " ></img>
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <h2 style="text-align: center;">BLT Rollers </h2>
+    <img src="plrt rules recipe .png" style="width:100%;height: 500px; " ></img>
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+
+    
+
+  </div>
+  
+  <p id="JUICE" style="text-align:center ; font-size: 80% " > JUICE<br> {Table of home made juce} <br> Some believe that juicing is better than eating whole fruits and vegetables because your body<br>
+     can absorb the nutrients better and it gives your digestive system a rest from digesting fiber. They say juicing can<br>
+      reduce your risk of cancer, boost your immune system, remove toxins from your body, aid digestion and help you lose weight.
+      <br>
+    However, there's no scientific evidence that extracted juices are healthier than the juice you get by eating the fruit or vegetable itself.
+    <br> 
+    But if you don't enjoy eating fruits and vegetables, juicing may be a way to add them to your </p> 
+
+<div style="; padding:7%">    <table >
+<tr >
+<td> <img src="juice1.webp" style="width:90% ;  border-radius: 10%;height: 90% ;"></td> <td><img src="juice2.webp" style="width:90% ; border-radius: 10%;height: 90% ;"></td> <td> <img src="juice4.webp" style="width:90% ;height: 90% ;  border-radius: 10%;"></td></tr>
+<tr> <td> <img src="iuice1=1.png" style="width:90% ;height: 90%  ; border-radius: 10%;"> </td> <td> <img src="juice2=2.png" style="width:90% ;height: 90% ;  border-radius: 10%;"> </td> <td> <img src="juice4=4.png" style="width:90% ;height: 90% ;  border-radius: 10%;"> </td>   </tr>
+<tr> <td> <img src="juice5.webp" style="width:90% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="juice6.webp" style="width:90% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="juice7.webp" style="width:90% ;height: 90% ; border-radius: 10%;"> </td>   </tr>
+<tr> <td> <img src="juice5=5.png" style="width:90% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="juice6=6.png" style="width:90% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="juice7=7.png" style="width:90% ;height: 90% ; border-radius: 10%;"> </td>   </tr>
+
+</table> </div>
+
+  
+    <p id="DESSERT"  style="text-align:center ; font-size: 80%"> DESSERT<br>  {List of home made dessert} <br> dessert has a high calorie content that will give your body energy that you lack. However,<br>
+       all that energy is short lived and it can only give your short bust of increased productivity. Because sugar contains<br>
+        four calories per gram, but it lacks nutritious value (no dietary fibers) and because of that sugar is only an added <br>
+        ingredient in many meals. </p> 
+
+        <div style="; padding:8%"> <table >
+          <tr >
+          <td> <img src="dessert1.webp" style="width:90% ;height: 90% ; border-radius: 10%;"></td> <td><img src="dessert2.webp" style="width:90% ;height: 90% ; border-radius: 10%;"></td> <td> <img src="dessert3.webp" style="width:90% ;height: 90% ; border-radius: 10%;"></td></tr>
+          <tr> <td> <img src="dessert1=1.png" style="width:90% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="dessert2=2.png" style="width:80% ;height: 90% ; border-radius: 10%;"> </td> <td> <img src="dessert3=3.png" style="width:90% ;height: 90% ; border-radius: 10%;"> </td>   </tr>
+          
+          </table>      </div>
+
+
+          <footer style="text-align:center ; height: 200%; margin: 7%;padding-bottom: 30%;background-color: #eab657	;margin-bottom: 0%;  padding-top: 5%; "><br>  It is our pleasure to know more <a  href="page 1 .html" style="border: #000000 solid 0px; width: fit-content; font-size: 80%;"> About us  &#128151:</a> {Phone:01067815088} {E-mail:basma20410@feng.bu.edu.eg}<br><br>
+            <table style="  caption-side: top;  padding-bottom: 0.5%; float: left; width: 50%; background-color: #eab75798	;"  >
+              <caption style=" background-color: #eab65798	;">Share our wepsite link in social media</caption>
+              <tr><td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ; width: 50%;"> <a href="https://www.facebook.com/ArabFoodClub/ " target="_blank" style="background-color:transparent ; border-radius:100%;"> <img style="border-radius:100% ;width: 20%;" src="facebookicon.jpg"></a> </td> 
+                <td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ;"> <a href="https://www.whatsapp.com/" target="_blank" style="background-color:transparent ; border-radius:100%;"> <img style="border-radius:100% ;width: 20%;" src="watsappicon.jpg"></a> </td>  </tr>
+                <tr><td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ;"> <a href="https://www.snapchat.com/" target="_blank" style="background-color:transparent ; border-radius:100%;"> <img style="border-radius:100% ;width: 20%;" src="snapshaticon.jpg"></a> </td> 
+                  <td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ;"> <a href="https://twitter.com/" target="_blank" style="background-color:transparent ; border-radius:100%;"> <img style="border-radius:100% ;width: 20%;" src="twitericon.jpg"></a> </td> </tr>
+                  <tr><td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ;"> <a href="https://www.instagram.com/" target="_blank" style="background-color:transparent ; border-radius:100%;"> <img style="border-radius:100% ;width: 20%;" src="instaicon.jpg"></a> </td> 
+                  <td style="border-radius:100%; background-color: transparent; border: solid grey 0px; padding:0% ;"> <a href="https://www.telegram.com/" target="_blank" style="background-color:transparent ; border-radius:100%; width: 80%;"> <img style="border-radius:90% ;width: 20%;" src="telegramicon.jpg"></a> </td>  </tr>
+          
+          </table>
+          <div style="float:right; width: 50%; background-color: transparent;" > Thanks for visiting our resturent wepsite  <br> We hope you visit our resturent <br><img src="logo.jpg" style="border-radius:10% ;" width="16.5%"><br></div>
+          
+          </footer>
+  
+
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+</body>
+</html>
